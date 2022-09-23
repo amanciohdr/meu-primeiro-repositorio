@@ -1,0 +1,20 @@
+Comandos importantes:
+
+git init - cria um novo repositório
+
+git clone /caminho/para/o/repositório - se repositório local
+
+git clone usuário@servidor:/caminho/para/o/repositório - se repositório em outro servidor remoto
+
+FLUXO DE TRABALHO
+
+git add . - adicionar um arquivo
+
+git commit -m "insira um comentário" - esse comando é o que realmente COMITA as alterações no github
+
+        ADD                    COMMIT                PUSH
+DIR --------------> INDEX ---------------> HEAD -------------------> REPOSITÓRIO REMOTO 
+
+git push origin main - envia as alterações para o servidor remoto (em alguns casos o repositório principal pode se chamar master)
+
+git remote add origin <servidor> - caso não tenha clonado um repositório mas queira enviar as alterações
